@@ -1,0 +1,136 @@
+#include <iostream>
+#include <string>
+
+int main() {
+    std::string input;
+    std::cout << "Say: ";
+    std::getline(std::cin, input);
+
+    if (input == "Python") {
+        std::cout << "a programming language that is widely used in web applications, software development, data science, and machine learning\n";
+        return 0;
+    }
+    if (input == "Programming") {
+        std::cout << "Computer programming or coding is the composition of sequences of instructions, called programs, that computers can follow to perform tasks.\n";
+        return 0;
+    }
+    if (input == "Syntax") {
+        std::cout << "Syntax is the set of rules that define what the various combinations of symbols mean\n";
+        return 0;
+    }
+    if (input == "Code") {
+        std::cout << "Code refers to the set of instructions, or a system of rules, written in a particular programming language (i.e., the source code).\n";
+        return 0;
+    }
+    if (input == "Scripts") {
+        std::cout << "A script is a program or sequence of instructions that is interpreted or carried out by another program rather than by the computer processor (as a compiled program is).\n";
+        return 0;
+    }
+    if (input == "Function") {
+        std::cout << "Functions are self contained modules of code that accomplish a specific task.\n";
+        return 0;
+    }
+    if (input == "Variable") {
+        std::cout << "A variable is a piece of memory that stores a value that can be changed\n";
+        return 0;
+    }
+    if (input == "Loop") {
+        std::cout << "Loop is a sequence of instruction s that is continually repeated until a certain condition is reached.\n";
+        return 0;
+    }
+    if (input == "Conditional") {
+        std::cout << "Statements that allow the execution of different blocks of code based on certain criteria\n";
+        return 0;
+    }
+    if (input == "Module") {
+        std::cout << "A distinct assembly of components that can be easily added, removed or replaced in a larger system.\n";
+        return 0;
+    }
+    if (input == "Library") {
+        std::cout << "A collection of pre-written code that you can use to perform specific tasks.\n";
+        return 0;
+    }
+    if (input == "Framework") {
+        std::cout << "A collection of reusable software components that make it more efficient to develop new applications.\n";
+        return 0;
+    }
+    if (input == "Debugging") {
+        std::cout << "The process of finding and fixing errors or bugs in the source code of any software\n";
+        return 0;
+    }
+    if (input == "Algorithm") {
+        std::cout << "A procedure or formula used for solving a problem\n";
+        return 0;
+    }
+    if (input == "Indention") {
+        std::cout << "The spaces or tabs at the beginning of a line of code\n";
+        return 0;
+    }
+    if (input == "Interpreter") {
+        std::cout << "A program that directly executes the instructions in a high-level language, without converting it into machine code.\n";
+        return 0;
+    }
+    if (input == "List") {
+        std::cout << "Collection of related values or elements that are stored together\n";
+        return 0;
+    }
+    if (input == "Tuple") {
+        std::cout << "A data structure that is an immutable, or unchangeable, ordered sequence of elements.\n";
+        return 0;
+    }
+    if (input == "Set") {
+        std::cout << "data structure that stores unique elements of the same type in a sorted order\n";
+        return 0;
+    }
+    if (input == "String") {
+        std::cout << "data type used in programming, that is used to represent text rather than numbers\n";
+        return 0;
+    }
+    if (input == "Class") {
+        std::cout << "A class is a blueprint for creating objects (a particular data structure), providing initial values for state (member variables or attributes), and implementations of behavior (member functions or methods)\n";
+        return 0;
+    }
+    if (input == "Method") {
+        std::cout << "A block of code which only runs when it is called.\n";
+        return 0;
+    }
+    if (input == "Inheritance") {
+        std::cout << "Is the mechanism of basing an object or class upon another object (prototype-based inheritance) or class (class-based inheritance), retaining similar implementation\n";
+        return 0;
+    }
+    if (input == "Polymorphism") {
+        std::cout << "The provision of a single interface to entities of different types, or the use of a single symbol to represent multiple different types.\n";
+        return 0;
+    }
+    if (input == "NumPy") {
+        std::cout << "A library for the Python programming language\n";
+        return 0;
+    }
+    if (input == "Flask") {
+        std::cout << "A micro web framework written in Python\n";
+        return 0;
+    }
+    if (input == "Django") {
+        std::cout << "Is a high-level Python web framework that enables rapid development of secure and maintainable websites.\n";
+        return 0;
+    }
+    if (input == "Iterator") {
+        std::cout << "Is an object (like a pointer) that points to an element inside the container.\n";
+        return 0;
+    }
+    if (input == "Generator") {
+        std::cout << "Generator is a routine that can be used to control the iteration behaviour of a loop\n";
+        return 0;
+    }
+    if (input == "Decorator") {
+        std::cout << "A design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure\n";
+        return 0;
+    }
+    if (input == "Multiprocessing") {
+        std::cout << "refers to the ability of a system to support more than one processor and/or the ability to allocate tasks between them\n";
+        return 0;
+    }
+
+    std::cout << "Term not found in dictionary.\n";
+    return 0;
+}
